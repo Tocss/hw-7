@@ -1,0 +1,27 @@
+body{
+    color: black;
+}
+
+.Header{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    color: rgb(216, 24, 24);
+    font-family:Arial;
+}
+
+.box{
+    background: url(./img/with.png);
+    height: 20;    
+}
+
+
+@media screen and (max-width: 800px){
+.photo > img{
+    display: none;
+    top: 20px;
+}
+
+
+}
